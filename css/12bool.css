@@ -4,6 +4,12 @@
   border: 1px solid black;
   background-color: pink;
 }
+.debug-nested-col [class*="col-"] {
+  height: 190px; /*200px - padding of 10px */
+  border: 1px solid white;
+  background-color: #f07f80;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -61,4 +67,9 @@
 }
 .col-12{
   width: calc( (100% / 12) * 12 )
+}
+
+/*Utility*/
+.p-5{
+  padding: 5px;
 }
